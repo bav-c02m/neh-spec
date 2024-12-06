@@ -1,4 +1,3 @@
-static/image/.DS_Store
-static/.DS_Store
-test.html
-static/images/.DS_Store
+# global ignore - .DS_Store
+
+t0.html

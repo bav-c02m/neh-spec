@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background-color: black;
+}
+
+
+body {
+    background-color: white;
+
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.conts {
+    background-color: antiquewhite;
+    
+    border: 1.5px solid black;
+}
+.navi {
+background-color: rgb(240, 190, 124);
+width: 100%;
+height: 24%;
+}
+    .butts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 1px solid black;
+        border-radius: 25%;
+
+        text-decoration: none;
+        text-transform: uppercase;
+        color: inherit;
+    }
+    .cn-top {
+        background-color: rgb(234, 147, 33);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 2%;
+    }
+        .b-top {
+            background-color: aqua;
+
+            width: 49%;
+            height: 100%;
+        }
+            .sluzby {
+                background-color: rgb(0, 192, 192);
+            }
+    .cn-bot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 2%;
+    }
+        .b-bot {
+            background-color: aqua;
+
+            width: 98%;
+            height: 100%;
+        }
+            .kontakty {
+                background-color: rgb(12, 219, 167);
+
+            }
+.cent {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

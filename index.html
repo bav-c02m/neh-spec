@@ -3,118 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>neh-spec</title>
-    <style>
-        * {
-            margin: 0; 
-            border: 0; 
-            padding: 0; 
-            box-sizing: border-box; 
-        }
-
-        html {
-            background-color: black; 
-        }
-
-        body {
-            background-color: white; 
-            width: 100dvw; 
-            height: 100dvh; 
-
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-        }
-
-        .main {
-            width: 100%; 
-            height: 100%; 
-
-            display: flex; 
-            flex-direction: column;
-            justify-content: space-between; 
-            align-items: center; 
-        }
-
-        .logo {
-            width: 100%; 
-            height: 56%; 
-            z-index: 0;
-
-            background-image: url(./static/image/logo-3840x1960px.webp); 
-            background-size: contain; 
-            background-repeat: no-repeat; 
-            background-position: center; 
-
-            position: relative; 
-        }
-
-        .logo-butts {
-            width: 50%; 
-            height: 50%; 
-            z-index: 1;
-
-            display: flex; 
-
-            position: absolute; 
-        }
-
-        .eng {
-            left: 0; 
-            top: 0; 
-        }
-
-        .contact {
-            right: 0;
-            bottom: 0;
-        }
-
-        .navi-butts {
-            width: 100%;
-            height: 22%;
-            z-index: 1;
-
-            border: 1.3px solid black;
-            text-decoration: none;
-            color: inherit;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .top {
-            border-radius: 0 0 40% 40%;
-
-            background: radial-gradient(circle, #d9f9e2, #b14d0a);
-            box-shadow: inset 5px 5px 25px 3px rgb(70, 70, 70), 7px 7px 35px rgb(35, 35, 35);
-        }
-
-        .bot {
-            border-radius: 40% 40% 0 0;
-
-            background: radial-gradient(circle, #d9f9e2, #06299f);
-            box-shadow: inset 5px 5px 25px 3px rgb(70, 70, 70);
-        }
-
-    </style>
+    <title>Nehtový Specialista</title>
+    <link rel="stylesheet" href="static/styles/index.css">
 </head>
 <body>
-    <div class="main">
+    <div class="conts navi cn-top">
+        <a href="#" class="butts b-top sluzby">služby</a>
+        <a href="#" class="butts b-top produkty">produkty</a>
+    </div>
+    
+    <div class="conts cent">cont-centr</div>
 
-        <a href="https://bumpix.net/alla" class="navi-butts top">
-            <h1>Služby</h1>
-        </a>
-
-        <div class="logo">
-            <a href="#" class="logo-butts eng"></a>
-            <a href="./kontakt.html" class="logo-butts contact"></a>
-        </div>
-
-        <a href="./produkty.html" class="navi-butts bot">
-            <h1>Produkty</h1>
-        </a>
-
+    <div class="conts navi cn-bot">
+        <a href="#" class="butts b-bot kontakty">kontakty</a>
     </div>
 </body>
 </html>
+
+<!-- 
+a, á, b, c, č, d, ď, e, é, ě, f, g, h, ch, i, í, j, k, l, m, n, ň, o, ó, 
+p, q, r, ř, s, š, t, ť, u, ú, ů, v, w, x, y, ý, z, ž
+ -->
